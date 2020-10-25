@@ -1,0 +1,44 @@
+<?php
+session_start();
+if (!isset($_SESSION['curUser'])) {
+    // If not signed in
+    header('Location: portal.php');
+}
+require ('job_db.inc');
+require ('job_cn.inc');
+$objConnect = db_connect();
+
+$person_id = $_SESSION['curUser'];
+if ($_SESSION['userType'] != 'ADMI') {
+    oci_close($objConnect);
+    die('Sorry but you have no permission to continue. ');
+}
+
+?>
+<html>
+    <head>
+    <title>Delete person</title>
+    </head>
+    <body>
+    <?
+
+    $aid = $_GET["CusID"];
+
+    $strSQL = "call DESTROY.DPERSON('$aid')";
+    $objParse = oci_parse($objConnect, $strSQL);
+    $objExecute = oci_execute($objParse, OCI_DEFAULT);
+
+    if($objExecute)
+    {
+        echo "Record Deleted.";
+    }
+    else
+    {
+        $e = oci_error($objParse);
+        echo "Error Delete [".$e['message']."]";
+    }
+    oci_close($objConnect);
+    ?>
+    <input type="button" name="Go Back" value="Back" onclick="location.href='del_person.php'">
+</body>
+</html>

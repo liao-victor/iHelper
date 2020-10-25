@@ -1,0 +1,2 @@
+INSERT INTO "USER_NAME".SP_OBJECTION ("ObjectionID", "SupervisorID", "IsApproved") VALUES (1, 'xhwang', 'P');
+INSERT INTO "USER_NAME".SP_OBJECTION ("ObjectionID", "SupervisorID", "IsApproved") VALUES (2, 'dalao', 'Y');

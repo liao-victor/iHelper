@@ -1,0 +1,104 @@
+body {
+    max-width: 1160px;
+    margin: 48px auto;
+    padding: 0 48px;
+    font-family: "Segoe UI", "Helvetica", sans-serif !important;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    align-content: stretch;
+}
+
+.job-info {
+    max-width: 900px;
+    flex: 1;
+    float: left;
+}
+
+.job-action {
+    width: 260px;
+    flex: none;
+    float: right;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: stretch;
+    padding: 12px 6px;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
+.action-row {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: stretch;
+    padding: 0 6px;
+    font-size: 12px;
+}
+
+.info-column {
+    padding: 24px;
+}
+
+.job-id {
+    font-size: 18px;
+    flex: none;
+    padding-right: 12px;
+}
+
+.job-name {
+    font-size: 36px;
+    font-weight: 200;
+    padding-left: 0;
+}
+
+.info-column.job-description,
+.info-column.job-name,
+.info-column.job-id {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.job-description pre {
+    font-family: "Segoe UI", "Helvetica", sans-serif !important;
+}
+
+.info-caption {
+    display: block;
+    font-size: 18px;
+}
+
+.info-content {
+    display: block;
+    font-size: 36px;
+}
+.btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin: 12px 0;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px !important;
+    transition: background-color .2s ease, box-shadow 0.2s ease;
+}
+.btn:hover {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+.btn.active {
+    background-color: #4CAF50;
+}
+.btn.danger {
+    background-color: #E91E63;
+}

@@ -1,0 +1,13 @@
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (4, 2, '14000001X', 'gggggg', 100, 'Y', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (115, 81, '16000001D', '0', 0, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (1, 0, '16000003D', 'THEEEEEE', 100, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (2, 0, '16000001D', 'lalala', null, 'P', 'Y');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (3, 1, '16000002D', 'aaaaaaaa', 100, 'Y', 'Y');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (105, 1, '16000001D', 'FNNDP', 0, 'N', 'N');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (666, 2, '16000002D', 'shenniu', 99, 'N', 'N');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (108, 1, '16000001D', '22222', 0, 'Y', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (111, 2, '16000001D', '0', 0, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (114, 1, '16000001D', 'hahahahah', 0, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (106, 1, '16000001D', 'I want this job NOW!', 0, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (109, 2, '16000001D', '0', 0, 'P', 'P');
+INSERT INTO "USER_NAME".JOB_APPLICATION ("AppID", "JobID", "StudentID", "CoverLetter", "Score", "IsSuccessful", "IsValid") VALUES (110, 1, '16000001D', '22222', 0, 'P', 'P');

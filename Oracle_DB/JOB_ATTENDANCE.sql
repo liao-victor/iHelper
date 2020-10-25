@@ -1,0 +1,1 @@
+INSERT INTO "USER_NAME".JOB_ATTENDANCE ("SessionID", "StudentID", "IsPresent", "AttendHours", "Remark") VALUES (1, '16000001D', 'Y', 3, 'good');

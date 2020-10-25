@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    outline: none;
+    user-select: none;
+}
+body {
+    background-color: #eee;
+    margin: 0;
+}
+.content-box {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 320px;
+    border-radius: 16px;
+    padding: 0 24px 24px 24px;
+    background-color: #fff;
+    margin: 0 auto;
+    transition: height .2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    margin: 65.5px 0;
+    color: #555;
+}
+.signin-input {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 16px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 6px 12px;
+    margin: 12px 0;
+    height: 32px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 0 2px #757575;
+    color: #757575;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    transition: background-color .2s ease, box-shadow .2s ease, color .2s ease;
+}
+.signin-input:focus {
+    background-color: transparent;
+    box-shadow: 0 0 12px #666;
+    color: #333;
+}
+.portal-btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin: 12px 0;
+    height: 32px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    background-color: #2196F3;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px !important;
+    /*font-weight: bold;*/
+    transition: background-color .2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.portal-btn:hover,
+.portal-btn:focus {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+.signin-link {
+    display: block;
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-size: .75em;
+    color: #999;
+    transition: color .2s ease;
+    margin: 6px 0;
+}
+.signin-link:hover,
+.signin-link:focus {
+    color: #333;
+}
+.footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    margin: 12px 0;
+}

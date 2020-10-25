@@ -1,0 +1,1 @@
+INSERT INTO "USER_NAME".JOB_SESSION ("SessionID", "JobID", "SupervisorID", "Date", "Hours", "Venue", "Desc") VALUES (1, 0, 'xhwang', TO_DATE('2017-12-04 18:32:42', 'YYYY-MM-DD HH24:MI:SS'), 3, 'PQ606', 'Lol');

@@ -1,0 +1,12 @@
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (1, 0, 'dalao', 'TEST------');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (103, 1, 'dalao', '���������application please');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (2, 2, 'xhwang', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (3, 3, 'cslla', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (4, 1, 'dmli', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (5, 4, 'cslhf', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (6, 1, 'cslhf', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (7, 7, 'xhwang', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (8, 82, 'dalao', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (9, 82, 'dalao', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (10, 0, 'dmli', 'Fusce tempor leo magna, ut cursus massa gravida ac. Nullam dignissim augue quam, ut sodales odio convallis vitae.');
+INSERT INTO "USER_NAME".JOB_ANNOUNCEMENT ("AncID", "JobID", "SupervisorID", "Message") VALUES (101, 1, 'dalao', 'absad');

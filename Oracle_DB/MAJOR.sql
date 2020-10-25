@@ -1,0 +1,8 @@
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('61431-', 11, 'CBD');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('61431-FCS', 11, 'COMP');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('61431-FIS', 11, 'EIS');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('61431-FIT', 11, 'IT');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('42470', 13, 'EIE');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('42477', 13, 'IMT');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('41470', 12, 'EE');
+INSERT INTO "USER_NAME".MAJOR ("MajorID", "DeptID", "MajorAbbr") VALUES ('43478', 15, 'ME');

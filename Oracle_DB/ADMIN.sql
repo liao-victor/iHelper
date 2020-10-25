@@ -1,0 +1,1 @@
+INSERT INTO "USER_NAME".ADMIN ("PersonID", "DeptID") VALUES ('comp1', 18);

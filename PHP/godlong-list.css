@@ -1,0 +1,86 @@
+body {
+    color:      #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table.joblist a {
+    text-decoration: none;
+    color: #000;
+}
+
+table.joblist {
+    width: 100%
+}
+
+table {
+    padding: 5px;
+}
+
+table.pagingbox {
+    width: auto;
+    margin: 0 auto;
+}
+
+td {
+    border: solid #000000 1px;
+    text-align: left;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+
+.footer {
+    border-top: solid #334B66 4px;
+    font-size: 90%;
+}
+
+.company {
+    padding-top: 5px;
+    float: right;
+}
+
+.date {
+    padding-top: 5px;
+    float: left;
+}
+
+.account-info {
+    padding-top: 5px;
+    flex: none;
+    order: 2;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    flex: none;
+    order: 1;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid #334B66 4px;
+}
+
+.pagingbox {
+    display: inline-block;
+    margin: 8px;
+}
+
+.pagingbox .page {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    border: solid #000 2px;
+    color: #000000;
+}
+
+.pagingbox .page.current {
+    background-color: #000000;
+    color: #ffffff;
+}
